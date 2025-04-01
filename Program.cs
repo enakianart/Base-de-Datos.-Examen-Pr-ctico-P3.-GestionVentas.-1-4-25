@@ -16,7 +16,7 @@ namespace Base_de_Datos.Examen_Práctico_P3.GestionVentas._1_4_25
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormGestionVentasInicio());
         }
     }
 }

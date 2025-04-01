@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace Base_de_Datos.Examen_Práctico_P3.GestionVentas._1_4_25
 {
-    public partial class Form1 : Form
+    public partial class FormRegistrarCliente : Form
     {
-        public Form1()
+        public FormRegistrarCliente()
         {
             InitializeComponent();
         }
+
     }
 }
