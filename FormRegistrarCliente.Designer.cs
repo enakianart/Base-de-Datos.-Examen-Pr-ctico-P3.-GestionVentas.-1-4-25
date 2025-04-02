@@ -38,8 +38,8 @@
             this.ApellidoTXT = new System.Windows.Forms.TextBox();
             this.CorreoTXT = new System.Windows.Forms.TextBox();
             this.TelefonoTXT = new System.Windows.Forms.TextBox();
-            this.RegistrarDetalleVentasBTN = new System.Windows.Forms.Button();
             this.RegistrarVentasBTN = new System.Windows.Forms.Button();
+            this.EnviarBTN = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -136,35 +136,37 @@
             this.TelefonoTXT.Size = new System.Drawing.Size(230, 26);
             this.TelefonoTXT.TabIndex = 11;
             // 
-            // RegistrarDetalleVentasBTN
-            // 
-            this.RegistrarDetalleVentasBTN.BackColor = System.Drawing.Color.White;
-            this.RegistrarDetalleVentasBTN.Font = new System.Drawing.Font("Agency FB", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RegistrarDetalleVentasBTN.Location = new System.Drawing.Point(545, 419);
-            this.RegistrarDetalleVentasBTN.Name = "RegistrarDetalleVentasBTN";
-            this.RegistrarDetalleVentasBTN.Size = new System.Drawing.Size(298, 77);
-            this.RegistrarDetalleVentasBTN.TabIndex = 13;
-            this.RegistrarDetalleVentasBTN.Text = "Registrar Detalle de Ventas";
-            this.RegistrarDetalleVentasBTN.UseVisualStyleBackColor = false;
-            // 
             // RegistrarVentasBTN
             // 
             this.RegistrarVentasBTN.BackColor = System.Drawing.Color.White;
             this.RegistrarVentasBTN.Font = new System.Drawing.Font("Agency FB", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RegistrarVentasBTN.Location = new System.Drawing.Point(153, 419);
+            this.RegistrarVentasBTN.Location = new System.Drawing.Point(741, 449);
             this.RegistrarVentasBTN.Name = "RegistrarVentasBTN";
             this.RegistrarVentasBTN.Size = new System.Drawing.Size(249, 77);
             this.RegistrarVentasBTN.TabIndex = 12;
             this.RegistrarVentasBTN.Text = "Registrar Ventas";
             this.RegistrarVentasBTN.UseVisualStyleBackColor = false;
+            this.RegistrarVentasBTN.Click += new System.EventHandler(this.RegistrarVentasBTN_Click);
+            // 
+            // EnviarBTN
+            // 
+            this.EnviarBTN.BackColor = System.Drawing.Color.White;
+            this.EnviarBTN.Font = new System.Drawing.Font("Agency FB", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EnviarBTN.Location = new System.Drawing.Point(402, 409);
+            this.EnviarBTN.Name = "EnviarBTN";
+            this.EnviarBTN.Size = new System.Drawing.Size(188, 70);
+            this.EnviarBTN.TabIndex = 14;
+            this.EnviarBTN.Text = "Enviar";
+            this.EnviarBTN.UseVisualStyleBackColor = false;
+            this.EnviarBTN.Click += new System.EventHandler(this.EnviarBTN_Click);
             // 
             // FormRegistrarCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.ClientSize = new System.Drawing.Size(1014, 530);
-            this.Controls.Add(this.RegistrarDetalleVentasBTN);
+            this.ClientSize = new System.Drawing.Size(1014, 546);
+            this.Controls.Add(this.EnviarBTN);
             this.Controls.Add(this.RegistrarVentasBTN);
             this.Controls.Add(this.TelefonoTXT);
             this.Controls.Add(this.CorreoTXT);
@@ -196,7 +198,7 @@
         private System.Windows.Forms.TextBox ApellidoTXT;
         private System.Windows.Forms.TextBox CorreoTXT;
         private System.Windows.Forms.TextBox TelefonoTXT;
-        private System.Windows.Forms.Button RegistrarDetalleVentasBTN;
         private System.Windows.Forms.Button RegistrarVentasBTN;
+        private System.Windows.Forms.Button EnviarBTN;
     }
 }

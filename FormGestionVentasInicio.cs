@@ -16,5 +16,21 @@ namespace Base_de_Datos.Examen_Práctico_P3.GestionVentas._1_4_25
         {
             InitializeComponent();
         }
+
+        private void RegistrarClienteBTN_Click(object sender, EventArgs e)
+        {
+            FormRegistrarCliente formRegistrarCliente = new FormRegistrarCliente();
+            formRegistrarCliente.Show();
+            this.Hide();
+        }
+
+        private void RegistrarVentasBTN_Click(object sender, EventArgs e)
+        {
+            FormRegistrarVentas formRegistrarVentas = new FormRegistrarVentas();
+            formRegistrarVentas.Show();
+            this.Hide();
+        }
+
+      
     }
 }

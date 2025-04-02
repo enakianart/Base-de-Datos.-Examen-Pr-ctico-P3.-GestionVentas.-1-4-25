@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Services.Client" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -58,12 +59,6 @@
     <Compile Include="FormRegistrarCliente.Designer.cs">
       <DependentUpon>FormRegistrarCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormRegistrarDetalleVentas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormRegistrarDetalleVentas.Designer.cs">
-      <DependentUpon>FormRegistrarDetalleVentas.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormRegistrarVentas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,9 +72,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormRegistrarCliente.resx">
       <DependentUpon>FormRegistrarCliente.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormRegistrarDetalleVentas.resx">
-      <DependentUpon>FormRegistrarDetalleVentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRegistrarVentas.resx">
       <DependentUpon>FormRegistrarVentas.cs</DependentUpon>
